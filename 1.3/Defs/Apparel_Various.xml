@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<VFEPirates.WarcasketDef ParentName="VFEP_WarcasketHelmetBase">
+    <defName>WarcasketHelmet_Faz</defName>
+    <label>freddy fazcasket head</label>
+    <shortDescription>a warcasket helmet designed in the style of a bear.</shortDescription>
+    <description>Nobody stuffs bodies into suits like afton robotics! Buy this brand new Freddy Fazcasket, scrapped from our facility. The teeth look sharp enough to bite a head off.</description>	  
+    <graphicData>
+      <texPath>Things/Pawn/Warcasketlike/Faz/WarcasketHelmet</texPath>
+    </graphicData>
+    <uiIconScale>1.25</uiIconScale>
+    <statBases>
+      <Mass>5</Mass>
+      <ArmorRating_Sharp>1.06</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.55</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.64</ArmorRating_Heat>
+      <Insulation_Cold>4</Insulation_Cold>
+      <Insulation_Heat>2</Insulation_Heat>
+      <EquipDelay>1</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+	  <MoveSpeed>-0.1</MoveSpeed>
+      <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">0.1</SlaveSuppressionOffset>
+    </equippedStatOffsets>
+    <costList>
+      <ComponentIndustrial>1</ComponentIndustrial>
+      <Steel>40</Steel>
+    </costList>
+    <researchPrerequisites>
+      <li>VFEP_Warcaskets</li>
+    </researchPrerequisites>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Warcasketlike/Faz/WarcasketHelmet</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>Warcasket</li>
+		<li>WarcasketAll</li>
+      </tags>
+    </apparel>
+  </VFEPirates.WarcasketDef>	
+  
+  <VFEPirates.WarcasketDef ParentName="VFEP_WarcasketHelmetBase">
+    <defName>WarcasketHelmet_Bon</defName>
+    <label>bonnie fazcasket head</label>
+    <shortDescription>a warcasket helmet designed in the style of a bunny.</shortDescription>
+    <description>Nobody stuffs bodies into suits like afton robotics! Buy this brand new Freddy Fazcasket, scrapped from our facility. There are purplish stains inside of the helmet.</description>	  
+    <graphicData>
+      <texPath>Things/Pawn/Warcasketlike/Bon/WarcasketHelmet</texPath>
+    </graphicData>
+    <uiIconScale>1.25</uiIconScale>
+    <statBases>
+      <Mass>5</Mass>
+      <ArmorRating_Sharp>1.06</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.55</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.64</ArmorRating_Heat>
+      <Insulation_Cold>4</Insulation_Cold>
+      <Insulation_Heat>2</Insulation_Heat>
+      <EquipDelay>1</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+	  <MoveSpeed>-0.1</MoveSpeed>
+      <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">0.1</SlaveSuppressionOffset>
+    </equippedStatOffsets>
+    <costList>
+      <ComponentIndustrial>1</ComponentIndustrial>
+      <Steel>40</Steel>
+    </costList>
+    <researchPrerequisites>
+      <li>VFEP_Warcaskets</li>
+    </researchPrerequisites>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Warcasketlike/Bon/WarcasketHelmet</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>Warcasket</li>
+		<li>WarcasketAll</li>
+      </tags>
+    </apparel>
+  </VFEPirates.WarcasketDef>	
+	
+	<VFEPirates.WarcasketDef ParentName="VFEP_WarcasketHelmetBase">
+    <defName>WarcasketHelmet_Joris</defName>
+    <label>joris warcasket head</label>
+    <shortDescription>a warcasket helmet designed in the style of a polar bear.</shortDescription>
+    <description>A polar bear styled head, designed by mr. cringe himself. Mr. cringe heard about a "fredric bear" robot that people were afraid of. This promted him to design the jorcasket.</description>	  
+    <graphicData>
+      <texPath>Things/Pawn/Warcasketlike/Polar/WarcasketHelmet</texPath>
+    </graphicData>
+    <uiIconScale>1.25</uiIconScale>
+    <statBases>
+      <Mass>5</Mass>
+      <ArmorRating_Sharp>1.06</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.55</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.64</ArmorRating_Heat>
+      <Insulation_Cold>4</Insulation_Cold>
+      <Insulation_Heat>2</Insulation_Heat>
+      <EquipDelay>1</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+	  <MoveSpeed>-0.1</MoveSpeed>
+      <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">0.1</SlaveSuppressionOffset>
+    </equippedStatOffsets>
+    <costList>
+      <ComponentIndustrial>1</ComponentIndustrial>
+      <Steel>40</Steel>
+    </costList>
+    <researchPrerequisites>
+      <li>VFEP_Warcaskets</li>
+    </researchPrerequisites>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Warcasketlike/Polar/WarcasketHelmet</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>Warcasket</li>
+		<li>WarcasketAll</li>
+      </tags>
+    </apparel>
+  </VFEPirates.WarcasketDef>	
+	
+	<VFEPirates.WarcasketDef ParentName="VFEP_WarcasketHelmetBase">
+    <defName>WarcasketHelmet_Spronkus</defName>
+    <label>recognizable cartoon character helmet</label>
+    <shortDescription>Why, it's spronkus kronkus!</shortDescription>
+    <description>Everone knows the recognizable cartoon character spronkus kronkus, with their gun and trans flag!</description>	  
+    <graphicData>
+      <texPath>Things/Pawn/Warcasketlike/Spronkus/WarcasketHelmet</texPath>
+    </graphicData>
+    <uiIconScale>1.25</uiIconScale>
+    <statBases>
+      <Mass>5</Mass>
+      <ArmorRating_Sharp>1.06</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.55</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.64</ArmorRating_Heat>
+      <Insulation_Cold>4</Insulation_Cold>
+      <Insulation_Heat>2</Insulation_Heat>
+      <EquipDelay>1</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+	  <MoveSpeed>-0.1</MoveSpeed>
+      <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">0.1</SlaveSuppressionOffset>
+    </equippedStatOffsets>
+    <costList>
+      <ComponentIndustrial>1</ComponentIndustrial>
+      <Steel>40</Steel>
+    </costList>
+    <researchPrerequisites>
+      <li>VFEP_Warcaskets</li>
+    </researchPrerequisites>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Warcasketlike/Spronkus/WarcasketHelmet</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>Warcasket</li>
+		<li>WarcasketAll</li>
+      </tags>
+    </apparel>
+  </VFEPirates.WarcasketDef>	
+	
+	<VFEPirates.WarcasketDef ParentName="VFEP_WarcasketArmorBase">
+		<defName>Warcasket_joris</defName>
+		<label>jorcasket body</label>
+		<shortDescription>a warcasket designed to look barebones, yet still animalistic.</shortDescription>
+		<description>The nullcasket body is used often, due to it's generic and inoffensive look. Originally a part of the joris set.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Warcasketlike/Polar/Warcasket</texPath>
+		</graphicData>
+		<statBases>
+			<Mass>45</Mass>
+			<ArmorRating_Sharp>1.2</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.8</ArmorRating_Heat>
+			<Insulation_Cold>20</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
+			<EquipDelay>1</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.2</MoveSpeed>
+			<SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">0.3</SlaveSuppressionOffset>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentIndustrial>4</ComponentIndustrial>
+			<Steel>90</Steel>
+			<Uranium>10</Uranium>
+		</costList>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Legs</li>
+				<li>Feet</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Warcasketlike/Polar/Warcasket</wornGraphicPath>
+			<layers>
+			    <li>OnSkin</li>
+				<li>Middle</li>
+				<li>Shell</li>
+			</layers>
+			<tags>
+				<li>Warcasket</li>
+				<li>WarcasketAll</li>
+			</tags>
+		</apparel>
+		<researchPrerequisites>
+			<li>VFEP_Warcaskets</li>
+		</researchPrerequisites>
+		<modExtensions>
+			<li Class="VFECore.ApparelExtension">
+				<traitsOnEquip>
+					<li>VFEP_WarcasketTrait</li>
+				</traitsOnEquip>
+				<traitsOnUnequip>
+					<li>VFEP_Shellcasket</li>
+				</traitsOnUnequip>
+				<carryingCapacity>75</carryingCapacity>
+				<pawnCapacityMinLevels>
+					<li>
+						<capacity>Moving</capacity>
+						<minLevel>0.7</minLevel>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<minLevel>0.7</minLevel>
+					</li>
+				</pawnCapacityMinLevels>
+			</li>
+		</modExtensions>
+	</VFEPirates.WarcasketDef>
+	
+	<VFEPirates.WarcasketDef ParentName="VFEP_WarcasketArmorBase">
+		<defName>Warcasket_Faz</defName>
+		<label>fazcasket body</label>
+		<shortDescription>a warcasket designed in the style of a bear.</shortDescription>
+		<description>Nobody stuffs bodies into suits like afton robotics! Buy this brand new Freddy Fazcasket, scrapped from our facility. Make sure there isn't someone inside!</description>
+		<graphicData>
+			<texPath>Things/Pawn/Warcasketlike/Faz/Warcasket</texPath>
+		</graphicData>
+		<statBases>
+			<Mass>45</Mass>
+			<ArmorRating_Sharp>1.2</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.8</ArmorRating_Heat>
+			<Insulation_Cold>20</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
+			<EquipDelay>1</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.2</MoveSpeed>
+			<SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">0.3</SlaveSuppressionOffset>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentIndustrial>4</ComponentIndustrial>
+			<Steel>90</Steel>
+			<Uranium>10</Uranium>
+		</costList>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Legs</li>
+				<li>Feet</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Warcasketlike/Faz/Warcasket</wornGraphicPath>
+			<layers>
+			    <li>OnSkin</li>
+				<li>Middle</li>
+				<li>Shell</li>
+			</layers>
+			<tags>
+				<li>Warcasket</li>
+				<li>WarcasketAll</li>
+			</tags>
+		</apparel>
+		<researchPrerequisites>
+			<li>VFEP_Warcaskets</li>
+		</researchPrerequisites>
+		<modExtensions>
+			<li Class="VFECore.ApparelExtension">
+				<traitsOnEquip>
+					<li>VFEP_WarcasketTrait</li>
+				</traitsOnEquip>
+				<traitsOnUnequip>
+					<li>VFEP_Shellcasket</li>
+				</traitsOnUnequip>
+				<carryingCapacity>75</carryingCapacity>
+				<pawnCapacityMinLevels>
+					<li>
+						<capacity>Moving</capacity>
+						<minLevel>0.7</minLevel>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<minLevel>0.7</minLevel>
+					</li>
+				</pawnCapacityMinLevels>
+			</li>
+		</modExtensions>
+	</VFEPirates.WarcasketDef>
+	
+	<VFEPirates.WarcasketDef ParentName="VFEP_WarcasketShoulderPadBase">
+		<defName>VFEP_WarcasketShoulders_Faz</defName>
+		<label>triangular shoulders</label>
+		<shortDescription>Triangular shoulder pads.</shortDescription>
+		<description>Originally designed for freddy, these stylish shoulder pads can go anywhere!</description>
+		<graphicData>
+			<texPath>Things/Pawn/Warcasketlike/Faz/WarcasketShoulders</texPath>
+		</graphicData>
+		<statBases>
+			<Mass>15</Mass>
+			<Flammability>0</Flammability>
+			<ArmorRating_Sharp>1.2</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.8</ArmorRating_Heat>
+			<Insulation_Cold>10</Insulation_Cold>
+			<Insulation_Heat>2</Insulation_Heat>
+			<EquipDelay>4</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.2</MoveSpeed>
+			<SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">0.2</SlaveSuppressionOffset>
+		</equippedStatOffsets>
+		<costList>
+			<Steel>40</Steel>
+		</costList>
+		<researchPrerequisites>
+			<li>VFEP_Warcaskets</li>
+		</researchPrerequisites>
+		<apparel>
+			<bodyPartGroups>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Hands</li>
+				<li>Neck</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Warcasketlike/Faz/WarcasketShoulders</wornGraphicPath>
+			<layers>
+				<li>OnSkin</li>
+				<li>Middle</li>
+				<li>Shell</li>
+			</layers>
+			<tags>
+				<li>Warcasket</li>
+				<li>WarcasketAll</li>
+			</tags>
+		</apparel>
+	</VFEPirates.WarcasketDef>
+
+</Defs>
